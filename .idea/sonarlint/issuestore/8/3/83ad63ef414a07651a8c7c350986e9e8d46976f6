@@ -1,0 +1,11 @@
+
+b	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(×²”û8´¨š­Ê1
+l
+java:S2095>"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(»¥¤Ÿ8ÇÎ¯Ê1
+k
+java:S2095("OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ğ©«58ÇÎ¯Ê1
+]	java:S125"<This block of commented-out lines of code should be removed.(Ï‹‚Äùÿÿÿÿ8«˜Ñ¯Ê1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(©àÇĞùÿÿÿÿ8¾ÇÎ¯Ê1
+q
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ôÓë£8¿ÇÎ¯Ê1
