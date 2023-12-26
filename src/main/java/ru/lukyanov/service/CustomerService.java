@@ -1,7 +1,7 @@
 package ru.lukyanov.service;
 
 import ru.lukyanov.entity.Customer;
-//import ru.lukyanov.processor.Benchmark;
+import ru.lukyanov.processor.Benchmark;
 import ru.lukyanov.repository.Repo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,12 +29,12 @@ public class CustomerService {
         System.out.println("--- destroy CustomerService");
     }
 
-    //@Benchmark
+    @Benchmark
     public Customer get(Long id) {
         return customerRepo.getById(id);
     }
 
-    //@Benchmark
+    @Benchmark
     public void update(Customer customer) {
         customerRepo.update(customer);
     }

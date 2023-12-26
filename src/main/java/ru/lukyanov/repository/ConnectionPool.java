@@ -13,20 +13,22 @@ public class ConnectionPool {
 
     private final HikariDataSource ds;
 
-
-    public ConnectionPool() {
+    public ConnectionPool(
+            @Value("${spring.datasource.url}")
+            String dbUrl,
+            @Value("${spring.datasource.user}")
+            String dbUser,
+            @Value("${spring.datasource.password}")
+            String dbPassword) {
 
         HikariConfig config = new HikariConfig();
 
-        config.setJdbcUrl("jdbc:mysql://localhost:3306/game");
-        config.setUsername("root");
-        config.setPassword("root");
+        config.setJdbcUrl(dbUrl);
+        config.setUsername(dbUser);
+        config.setPassword(dbPassword);
 
         ds = new HikariDataSource(config);
     }
-
-
-
 
     public Connection getConnection() throws SQLException {
         return ds.getConnection();

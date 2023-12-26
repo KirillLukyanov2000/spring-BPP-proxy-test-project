@@ -1,9 +1,5 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ê¾ú®8ş“Ä¯Ê1
-[
-java:S1128"9Remove this unused import 'ru.lukyanov.config.AppConfig'.(ìÅùÿÿÿÿ8ŠãÖ¯Ê1
-h
-java:S1128	"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿8ŠãÖ¯Ê1
-‚
-java:S1128
-"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;8‹ãÖ¯Ê1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÕÕß¯Ê1
+G	java:S106"+Replace this use of System.out by a logger.(Ñ«±Ã8ÖÕß¯Ê1
+G	java:S106"+Replace this use of System.out by a logger.(Æ¹ê„8×Õß¯Ê1
+G	java:S106"+Replace this use of System.out by a logger.(èàÖ8ØÕß¯Ê1
