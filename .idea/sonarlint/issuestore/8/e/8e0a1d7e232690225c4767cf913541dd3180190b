@@ -1,16 +1,14 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ó‡®Û8¶¦ê²Ê1
-X	java:S125"<This block of commented-out lines of code should be removed.(Øç£8·¦ê²Ê1
-]	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8·¦ê²Ê1
-L	java:S106"+Replace this use of System.out by a logger.(íÐŽðûÿÿÿÿ8º¦ê²Ê1
+G	java:S106"+Replace this use of System.out by a logger.(ó‡®Û8éø²Ê1
+L	java:S106"+Replace this use of System.out by a logger.(žÉ©Æýÿÿÿÿ8ìø²Ê1
 g
-java:S1128"ERemove this unused import 'org.springframework.cglib.proxy.Enhancer'.(Ÿõ‚´ûÿÿÿÿ8½¦ê²Ê1
+java:S1128"ERemove this unused import 'org.springframework.cglib.proxy.Enhancer'.(Ÿõ‚´ûÿÿÿÿ8ïø²Ê1
 k
-java:S1128"NRemove this unused import 'org.springframework.cglib.proxy.MethodInterceptor'.(Œ×«‘8½¦ê²Ê1
+java:S1128"NRemove this unused import 'org.springframework.cglib.proxy.MethodInterceptor'.(Œ×«‘8ïø²Ê1
 P
 java:S1128
-".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8½¦ê²Ê1
+".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ïø²Ê1
 L
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8½¦ê²Ê1
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8ïø²Ê1
 W
-java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ8½¦ê²Ê1
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™þ8ïø²Ê1

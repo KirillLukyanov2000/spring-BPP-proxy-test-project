@@ -18,16 +18,17 @@ import java.util.concurrent.TimeUnit;
 public class BenchmarkBeanPostProcessor implements BeanPostProcessor {
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        // ЕСЛИ АННОТАЦИЯ СТОИТ НАД КЛАССОМ ИЛИ МЕТОДОМ ВЫВОДИТСЯ СООБЩЕНИЕ
-        //if (bean.getClass().isAnnotationPresent(Benchmark.class) || isMethodAnnotated(bean.getClass())) {
+
+        if (bean.getClass().isAnnotationPresent(Benchmark.class) || isMethodAnnotated(bean.getClass())) {
             System.out.printf("<<< before init %s <<< Benchmark started %n", beanName);
-        //}
+        }
         return bean;
     }
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        System.out.printf(">>> after init %s%n", beanName);
+        if (bean.getClass().isAnnotationPresent(Benchmark.class) || isMethodAnnotated(bean.getClass())) {
+        System.out.printf(">>> after init %s%n", beanName);}
         return bean;
     }
 
