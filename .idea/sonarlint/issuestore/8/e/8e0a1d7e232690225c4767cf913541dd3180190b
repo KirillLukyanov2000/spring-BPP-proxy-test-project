@@ -1,14 +1,6 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ó‡®Û8éø²Ê1
-L	java:S106"+Replace this use of System.out by a logger.(É©Æıÿÿÿÿ8ìø²Ê1
-g
-java:S1128"ERemove this unused import 'org.springframework.cglib.proxy.Enhancer'.(Ÿõ‚´ûÿÿÿÿ8ïø²Ê1
-k
-java:S1128"NRemove this unused import 'org.springframework.cglib.proxy.MethodInterceptor'.(Œ×«‘8ïø²Ê1
-P
-java:S1128
-".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ïø²Ê1
-L
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ïø²Ê1
-W
-java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8ïø²Ê1
+G	java:S106"+Replace this use of System.out by a logger.(ó‡®Û8·…Å³Ê1
+L	java:S106%"+Replace this use of System.out by a logger.(íĞğûÿÿÿÿ8º…Å³Ê1
+G	java:S106/"+Replace this use of System.out by a logger.(ôÏï—8½…Å³Ê1
+L	java:S1063"+Replace this use of System.out by a logger.(âÂ…ıÿÿÿÿ8¿…Å³Ê1
+L	java:S106;"+Replace this use of System.out by a logger.(€š”’øÿÿÿÿ8À…Å³Ê1

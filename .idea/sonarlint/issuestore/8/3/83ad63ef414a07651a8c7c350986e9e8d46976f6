@@ -1,6 +1,6 @@
 
 g	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(³º¼ÿÿÿÿÿ8´¨š­Ê1
-k
-java:S2095%"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ğ©«58ÇÎ¯Ê1
 l
 java:S2095;"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(»¥¤Ÿ8ÇÎ¯Ê1
+k
+java:S2095%"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ğ©«58ÇÎ¯Ê1

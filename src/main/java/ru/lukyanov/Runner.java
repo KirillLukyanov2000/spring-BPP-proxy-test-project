@@ -15,7 +15,7 @@ public class Runner {
             System.out.println();
             System.out.println("1 " + customer);
 
-            customer.setPassword("AnotherSomeNewPassword");
+            customer.setPassword("SomeNewPassword");
             System.out.println("2 " + customer);
 
             context.getBean(CustomerService.class).update(customer);
