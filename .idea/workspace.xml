@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76d252f3-939b-4f45-af47-353fa15aadf7" name="Changes" comment="@PreDestroy and @PostDestroy annotations tested">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83ad63ef414a07651a8c7c350986e9e8d46976f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83ad63ef414a07651a8c7c350986e9e8d46976f6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e0a1d7e232690225c4767cf913541dd3180190b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e0a1d7e232690225c4767cf913541dd3180190b" afterDir="false" />
+    <list default="true" id="76d252f3-939b-4f45-af47-353fa15aadf7" name="Changes" comment="CGLIB proxy implementation added">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9706b93d68dd679b4c394b70b519abf9f5505b83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f34be3fe36787e72dccf52a50dd3d6b392eefae3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f34be3fe36787e72dccf52a50dd3d6b392eefae3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/9706b93d68dd679b4c394b70b519abf9f5505b83" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/processor/BenchmarkBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/processor/BenchmarkBeanPostProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "29b72a278261222854d8e570956a4cd0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;29b72a278261222854d8e570956a4cd0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zarad\IdeaProjects\spring-BPP-proxy-test-project\src\main\java\ru\lukyanov\processor" />
@@ -96,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1703584917164</updated>
       <workItem from="1703584918135" duration="6589000" />
-      <workItem from="1703595958408" duration="5413000" />
+      <workItem from="1703595958408" duration="6424000" />
+      <workItem from="1703660506374" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="First App run without Spring">
       <option name="closed" value="true" />
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703598366430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CGLIB proxy implementation added">
+      <option name="closed" value="true" />
+      <created>1703602443355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703602443355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +142,7 @@
     <MESSAGE value="First App run without Spring" />
     <MESSAGE value="First App run with Spring and custom BeanPostProcessor" />
     <MESSAGE value="@PreDestroy and @PostDestroy annotations tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="@PreDestroy and @PostDestroy annotations tested" />
+    <MESSAGE value="CGLIB proxy implementation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CGLIB proxy implementation added" />
   </component>
 </project>
